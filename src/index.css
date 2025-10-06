@@ -1,0 +1,7 @@
+:root{--bg:#0f172a;--card:#0b1220;--accent:#60a5fa;--text:#e6eef8}
+*{box-sizing:border-box}
+html,body,#root{height:100%;margin:0}
+body{font-family:Inter, Roboto, system-ui, -apple-system, 'Segoe UI', sans-serif;background:linear-gradient(180deg,#071020, #071b2a);color:var(--text);padding:24px}
+.app{max-width:720px;margin:48px auto;padding:24px;background:rgba(255,255,255,0.03);border-radius:12px}
+button{background:var(--accent);color:#032; padding:8px 12px;border-radius:8px;border:none;cursor:pointer}
+button:hover{filter:brightness(0.95)}
